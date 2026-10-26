@@ -11,6 +11,7 @@ header {
   text-align: center;
   margin-top: 20px;
   background-color: #c0c5f8;
+  padding: 5px 0px;
 }
 
 h2, h3 {
@@ -21,7 +22,6 @@ h2, h3 {
 }
 
 h3 {
-  color: #7328d4;
   background-color: #aee2f1;
 }
 
@@ -35,6 +35,6 @@ footer {
 }
 
 .link:hover {
- color: #ff0000;
+  color: #ff0000;
   text-decoration: underline;
 }
