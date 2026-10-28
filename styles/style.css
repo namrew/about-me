@@ -26,6 +26,8 @@ h3 {
 }
 
 footer {
+  display: flex;
+  justify-content: space-evenly;
   border-top: 1px solid #ccc;
 }
 
@@ -40,8 +42,6 @@ footer {
 }
 
 footer {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .skills {
