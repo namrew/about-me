@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   line-height: 1.6;
   padding: 20px;
+  font-size: 1rem;
 }
 
 header {
@@ -14,15 +15,34 @@ header {
   padding: 5px 0;
 }
 
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ava {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 h2, h3 {
   color: #7328d4;
   margin-top: 20px;
   background-color: #c0c5f8;
   padding-left: 20px;
+  font-size: 1.5rem;
 }
 
 h3 {
   background-color: #aee2f1;
+  font-size: 1.25rem;
 }
 
 footer {
@@ -41,9 +61,6 @@ footer {
   text-decoration: underline;
 }
 
-footer {
-}
-
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -53,4 +70,19 @@ footer {
 
 .skills__column {
   flex: 1 1 250px;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .profile__name {
+    font-size: 3.5rem;
+  }
+  .profile__title {
+    font-size: 2rem;
+  }
+  h2, h3 {
+    font-size: 2.5rem;
+  }
 }
